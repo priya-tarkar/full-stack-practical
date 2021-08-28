@@ -1,0 +1,9 @@
+@import url("./c2.css");
+body{
+    background-color: aqua;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    color: red;
+}
