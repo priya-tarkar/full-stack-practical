@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
+
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Responsive Navigation Menu</title>
+      <title>Animal-Heaven</title>
       <link rel="stylesheet" href="./slidenav.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
+      <div class="container">
       <nav>
          <div class="logo">
             Animal Heaven
@@ -20,10 +21,10 @@
          </label>
          <ul>
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="./bootstrap.html">About</a></li>
+            <li><a href="#name">About</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
          </ul>
       </nav>
       <div class="banner">
@@ -50,16 +51,19 @@
             
          </div>
       </div>
-         <div class="article">
+         <div class="article" id="name">
             <div class="head-2">
                <h1>About Us</h1>
             </div>
-            <div class="section-2">
+            <div class="section-2" >
             <div id="left" class="art1">
                <h1>Who We Are??</h1>
+               <div class="p">
                <p>It takes nothing away From Human To be Kind to an Animal.</p>
-               <p>-Joaquin Phoenix</p>
-               <p>We help the people to save the life of animals . We provide them the address and contact number of nearby doctor an case of Emergency and for regular Checkup we provide the adress of specialist docters.  </p>
+               <p><span id="span">-Joaquin Phoenix</span></p>
+               <p>We help the people to save the life of animals . We provide them the address and contact number of nearby doctor an case of Emergency and for regular Checkup we provide the adress of specialist docters.
+                  This website will suggest you best and most nearby hospital .   </p>
+               </div>
             </div>
             <div id="right" class="art1">
                <!-- <img src="https://thumbs.dreamstime.com/b/doctor-assistant-checking-up-golden-retriever-dog-vet-cli-clinic-117962148.jpg" alt="" srcset=""> -->
@@ -119,28 +123,33 @@
                <footer>
                    <section class="sec-1">
                        <section class="cat-1">
-                           <h2>About</h2>
-                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit velit facilis doloribus cum? Accusantium doloribus nemo quasi minima unde nisi a veniam inventore atque ipsa corrupti aut assumenda accusamus modi dignissimos ab eos ea, beatae possimus. Possimus cumque odit quibusdam saepe tenetur quisquam nisi eaque nam iusto, nobis impedit recusandae maxime facere labore hic sequi architecto eligendi, officiis, ipsa beatae repellendus officia veritatis! Dolorem, est praesentium</p>
+                           <h2>Feedback and Suggestion</h2>
+                           <p>This is YOUR website,so if you have any suggestions or Feedback on how we can improve
+                              it for you, please let us know . We do our best to keep up! 
+                           </p>
+                           <form>
+                              <input type="text" placeholder="Feedback & suggestions" id="text">
+                              <input type="submit" value="submit" id="submit">
+                           </form>
                        </section>
                        <section class="cat-2">
                            <h2>Categories</h2>
                            <ul>
-                               <li><a href="#">C</a></li>
-                               <li><a href="#">UI Design</a></li>
-                               <li><a href="#">PHP</a></li>
-                               <li><a href="#">JAVA</a></li>
-                               <li><a href="#">Android</a></li>
-                               <li><a href="#">Hybrid Apps</a></li>
+                               <li><a href="#">Services</a></li>
+                               <li><a href="#">Emergency</a></li>
+                               <li><a href="#">Login</a></li>
+                               <li><a href="#">Regular</a></li>
        
                            </ul>
                        </section>
                        <section class="cat-3">
                            <h2>Quick Links</h2>
                            <ul>
+                              <li><a href="#">Home</a></li>
+
                                <li><a href="#">About Us</a></li>
                                <li><a href="#">Contact Us</a></li>
                                <li><a href="#">Contribute</a></li>
-                               <li><a href="#">JAVA</a></li>
                                <li><a href="#">Privacy Policy</a></li>
                                <li><a href="#">Startup</a></li>
                            </ul>
@@ -148,10 +157,10 @@
                        <section class="cat-3">
                            <h2>Contact Us</h2>
                            <ul>
-                           <li><i class="fa fa-home"></i><span>SCO-75, Chandigarh, India</span></li>
-                           <li><i class="fa fa-envelope"></i><span>betalabs@gmail.com</span></li>
-                           <li><i class="fa fa-phone-square"></i><span>Mobile:6666666666</span></li>
-                           <li><i class="fa fa-facebook-official"></i><a href="#">betalabs</a></li>
+                           <li><i class="fa fa-home"></i><span>SCO-75,Mathura, India</span></li>
+                           <li><i class="fa fa-envelope"></i><span>animalheaven@gmail.com</span></li>
+                           <li><i class="fa fa-phone-square"></i><span>Mobile:9796952210</span></li>
+                           <li><i class="fa fa-facebook-official"></i><a href="#">Animalheaven</a></li>
                            
                                
                            </ul>
@@ -159,8 +168,8 @@
                    </section>
                    <hr width="100%" noshade="">
                        <section class="sec-2">
-                           <h2>Register for Free</h2>
-                           <li><a href="#">SIGN UP!</a></li>
+                           <h2>Login for Free</h2>
+                           <li><a href="#">LOGIN!</a></li>
        
                        </section>
                        <hr width="100%" noshade>
@@ -178,7 +187,7 @@
                    <section class="sec-4">
                    <p>
                        Copyright  &#169; 2020 All Rights Reserved by 
-                       <a href="https://www.beta-labs.in">beta-labs</a>
+                       <a href="https://www.google.in">beta-labs</a>
                    </p>
                    </section>
                </footer>
@@ -188,6 +197,28 @@
 
 
          </div>
+         
+    
+        
+    
+        
+    
+        
+    
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger intent="WELCOME" chat-title="GLA_MAIN" agent-id="cb0013a2-9030-4165-830a-9566721c3f36" language-code="en"></df-messenger>
+        <!-- <iframe  src="https://bot.dialogflow.com/9e663bde-b9f0-434c-a43f-985f308e09ce"></iframe> -->
+        <style>
+            df-messenger {
+                --df-messenger-bot-message: #878fac;
+                --df-messenger-button-titlebar-color: #df9b56;
+                --df-messenger-chat-background-color: #fafafa;
+                --df-messenger-font-color: white;
+                --df-messenger-send-icon: #878fac;
+                --df-messenger-user-message: #479b3d;
+            }
+            </style>
+      </div>
          
          
 

@@ -5,6 +5,13 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 } 
+.container{
+  /* background: url("https://wallpapercave.com/wp/PJ70s19.jpg"); */
+  /* background-color: darkblue; */
+  /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqY7iCYQiGtn8blyDH3JPl77Fd9_pn64yJIg&usqp=CAU"); */
+  /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfnKE0eiyiuD11KQWv6sIQFnKZmHf9j9t2g&usqp=CAU"); */
+  background: linear-gradient(to bottom,grey,darkblue);
+}
 nav{
   display: flex;
   height: 80px;
@@ -101,7 +108,7 @@ input[type="checkbox"]{
       width:920px ;
   } */
 }
-.content{
+/* .content{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -114,8 +121,8 @@ input[type="checkbox"]{
 }
 .content div{
   font-size: 40px;
-  font-weight: 700;
-}
+  font-weight: 700; */
+/* } */
  .banner {
     margin-top: 20px;
     /* width: 1326px; */
@@ -139,7 +146,7 @@ input[type="checkbox"]{
     }
 } 
 .banner h1{
-    color:red;
+    color:purple;
     align-items: center;
     margin-left: 180px;
     margin-top: 10px;
@@ -149,6 +156,7 @@ input[type="checkbox"]{
   display: flex;
   justify-content:space-evenly;
   flex-wrap: wrap;
+  /* background:url("https://static.vecteezy.com/system/resources/previews/000/104/265/non_2x/vector-maroon-zebra-print-background.jpg") */
 }
 .head-1 h1{
   text-align: center;
@@ -159,16 +167,56 @@ input[type="checkbox"]{
   width: 280px;
   background-color: blue;
   margin: 10px;
-  /* padding-right: 100px; */
+  margin-top: 50px; 
+  margin-bottom: 50px;
   
+}
+@media (max-width:595px)
+{
+  .im{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 .im img{
   width:280px;
   height: 200px;
+  border-radius: 8px;
+  /* border: 5px solid black; */
+  border-style:ridge ;
+   border: 5px ridge  rgb(95, 233, 233);
 }
+#img-1:hover{
+   transform:rotate(360deg) ;
+   transition: 2s;
+   border-style: ridge  ;
+   border: 5px ridge rgb(95, 233, 233);
+  
+}
+#img-2:hover{
+  transform:rotate(360deg) ;
+   transition: 2s;
+   border: 2px solid black;
+}
+#img-3:hover
+{
+transform:rotate(360deg) ;
+   transition: 2s;
+   border: 2px solid black;
+}
+#img-4:hover
+{
+  transform:rotate(360deg) ;
+   transition: 2s;
+   border: 2px solid black;
+}
+
 .article h1{
   text-align: center;
   margin-top: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
 
 }
 
@@ -176,7 +224,7 @@ input[type="checkbox"]{
   /* height: 500px; */
   width: 600px;
   /* background-color: blueviolet; */
-  background-color: skyblue;
+  
   margin: 10px;
 }
 .section-2{
@@ -187,6 +235,20 @@ input[type="checkbox"]{
 #left{
   padding: 20px 20px;
   text-align: justify;
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRogLI_WwBePpvi9oiA2TVL1FIHdnKrXdtGFw&usqp=CAU");
+}
+#span{
+  margin-left: 180px;
+  color: rgb(43, 39, 39);
+}
+#left h1{
+  color: rgb(0, 17, 255);
+}
+.p{
+  margin-top: 30px;
+  padding: 0px 40px;
+  font-family: Arial;
+  font-size: 20px;
 }
 #right{
   display: flex;
@@ -207,13 +269,20 @@ input[type="checkbox"]{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  border: 4px solid black;
 
 
+
+}
+#image-1:hover{
+  transform: translate(10,10);
 }
 #image-2 img{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  border: 4px solid black;
+
 
 
 }
@@ -221,6 +290,8 @@ input[type="checkbox"]{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  border: 4px solid black;
+
 
 
 }
@@ -228,6 +299,8 @@ input[type="checkbox"]{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  border: 4px solid black;
+
 
 
 }
@@ -910,6 +983,30 @@ hr{
       background-color:#ea4c89
       ;
   }
+}
+.cat-1 #submit{
+  background-color: red;
+  color: white;
+  padding: 1px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cat-1 #submit:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.cat-1 #text{
+  border: 5px solid black;
+  padding: 7px 7px;
+  font-size: 13px;
+  font-weight: bolder;
+
+}
+.cat-1 form{
+  margin-top: 5px;
 }
 
 
